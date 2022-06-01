@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS=['studentschool.darkube.app']
+ALLOWED_HOSTS=['*']
 # ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS").split(",")
 
 SECRET_KEY = 'django-insecure-$wmy7w146)1tfk*4k8o$&1a$#0i-y_m@rjj!v_(38k-18jm@y9'
@@ -94,9 +94,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "postgres",
         "USER": "postgres",
-        "PASSWORD": "GmNbvDOnkFOZB3WiSDG8RgMrVzL2rZ9o",
-        "HOST": "5309c5de-1af9-4607-b08e-2f231ae679fe.hsvc.ir",
-        "PORT": "30937",
+        "PASSWORD": "xhPocJkDqorq5XCuK363WvCyAuYnyoy9",
+        "HOST": "schooldb.youseffava.svc",
+        "PORT": "5432",
     }
 }
 
